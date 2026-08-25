@@ -72,7 +72,7 @@ Spring-Loaded Bypass Shears: Employs a single pivot pin with an external coil sp
 
 *Design Choice Rationale:*
 
-Observed Feature - The asymmetric keyed slip-joint profile (requiring the blades to be opened to $90^\circ$ for separation).
+Observed Feature - The asymmetric keyed slip-joint profile (requiring the blades to be opened to 90 degrees for separation).
 
 Engineering Rationale - The designer selected a keyed slip-joint over a permanent threaded rivet to enable complete disassembly without tools. This geometric feature ensures that during normal operational cutting angles (0 to 45 degrees), the blade shoulders remain locked together to resist transverse separation forces, while still allowing full separation for washing and sanitizing trapped material along the pivot interface.
 
