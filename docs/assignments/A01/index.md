@@ -20,7 +20,22 @@ This portfolio presents final performance metrics instead of documenting the des
 Professional Tone:
 The writing itself follows a formal technical register, suitable for a hiring manager. The descriptions throughout rely on precise domain specific language to outline hardware interfaces and software logic. The narrative also avoids conversational phrasing, ensuring the focus remains on system inputs, outputs, and physical constraints.
 
-Portfolio 2 - 
+Portfolio 2 - https://thanhvtran.com/
+
+Navigability:
+This website utilized a top level navigation menu with dedicated tabs for Home, Resume, Projects, About, and Contact. Navigating over to the Projects page allows a reviewer to locate any specific project within 20 seconds. The site also provides a category filter in order to isolate specific subsects of work. However, accessing the underlying calculation files, raw CAD repositories, or even FEA datasets requires navigating through individual projects that link out selectively, instead of displaying primary files to the top-level site. 
+
+Reproducibility:
+Once again, the degree to which an external reviewer can replicate the documented systems depends on the specific project. The FSAE Suspension Uprights and Plastic Injection Mold entries can both be moderately reproduced due to the documentation detailing the structural material selection, specific tooling operations, and explicit design mechanisms. 
+
+Evidence of Reasoning:
+The portfolio consistently demonstrates how analytical methods impacted physical design choices. Take the FSAE Suspension Uprights entry, in which the documentation showcased a clear transition between the initial boundary calculations to the hand calculations. Similarly, the Plastic Injection Mold entry compared three distinct mechanical solutions for molding undercuts and documented the exact cost and time trade-offs that led to selecting said mechanical solutions. 
+
+Professional Tone: 
+The writing follows a technical voice suitable for an engineering recruiter or lead designer. The narrative incorporated domain specific language, such as GD&T or topology optimization, to explain physical constraints and failure modes. The site tended to avoid a more casual blog-like style of story telling in favor of grounding project descriptions in physical parameters, manufacturing constraints, and verified structural behaviors. 
+
+Task B - Product Analysis
+
 
 ## Decide
 
