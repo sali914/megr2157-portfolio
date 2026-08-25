@@ -40,3 +40,10 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  theme:
+    name: material
+    palette:
+      primary: custom
+  extra_css:
+  - stylesheets/extra.css
