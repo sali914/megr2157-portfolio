@@ -96,3 +96,4 @@ Every assignment entry will include fully constrained governing equations, expli
 
 ## Communicate
 
+The About Me page, found in the sidebar menu, includes my professional introduction my response to defending an engineering decision, and the approximate time it took me to complete the assignment.
