@@ -6,7 +6,7 @@ Establishing a professional baseline for documenting and evaluating engineering 
 ## Analyze
 ### Task A - Analyzing Portfolios
 
-Portfolio 1 - https://nhoong.github.io/
+Portfolio 1 - [https://nhoong.github.io/](https://nhoong.github.io/)
 
 Navigability:
 This portfolio utilized a single-page layout with a navigation menu fixed to the top, which includes links for the portfolio, work experience, resume, and other social links. A reviewer will be able to easy find any specific project header within 30 seconds, either by scrolling or selecting the main navigation bar. However, locating underlying CAD source files or executable code repositories requires visiting a linked GitHub profile or external PDF viewer.
@@ -20,7 +20,7 @@ This portfolio presents final performance metrics instead of documenting the des
 Professional Tone:
 The writing itself follows a formal technical register, suitable for a hiring manager. The descriptions throughout rely on precise domain specific language to outline hardware interfaces and software logic. The narrative also avoids conversational phrasing, ensuring the focus remains on system inputs, outputs, and physical constraints.
 
-Portfolio 2 - https://thanhvtran.com/
+Portfolio 2 - [https://thanhvtran.com/](https://thanhvtran.com/)
 
 Navigability:
 This website utilized a top level navigation menu with dedicated tabs for Home, Resume, Projects, About, and Contact. Navigating over to the Projects page allows a reviewer to locate any specific project within 20 seconds. The site also provides a category filter in order to isolate specific subsects of work. However, accessing the underlying calculation files, raw CAD repositories, or even FEA datasets requires navigating through individual projects that link out selectively, instead of displaying primary files to the top-level site. 
@@ -50,7 +50,7 @@ The system's mechanical behavior is governed by a combination of Class 1 moment 
 
 <img width="3000" height="4000" alt="Full_Scissor" src="https://github.com/user-attachments/assets/813e35ff-66b7-4478-9934-436d1f5a36e3" />
 
-*Patent Number:* US 6,493,947 B2 | *Inventors/Authors:* Lars Hedstrom et al. | *Filed:* Jan. 22, 2001 | *Granted:* Dec. 17, 2002
+*Patent Number:* [US 6,493,947 B2](https://ppubs.uspto.gov/api/pdf/downloadPdf/US-6493947-B2?source=USPAT&requestToken=eyJzdWIiOiJlMzFiZWNiYy1hY2UyLTQ0N2YtODVhMC02OGJiNWQ3ZDEwZGQiLCJ2ZXIiOiI1MDE5MGQ3NC0xMTE1LTQ2MDUtYWYyZS1iMWEzMzJkM2VkOGMiLCJleHAiOjB9) | *Inventors/Authors:* Lars Hedstrom et al. | *Filed:* Jan. 22, 2001 | *Granted:* Dec. 17, 2002
 
 &nbsp;&nbsp;&nbsp; **Component 1 - Primary Blade & Keyed Pivot Post**
 <img width="3000" height="4000" alt="Comp_1" src="https://github.com/user-attachments/assets/2d969dd3-2c6b-4ae5-8573-4f615bc2d600" />
