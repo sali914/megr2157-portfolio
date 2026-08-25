@@ -47,39 +47,43 @@ $$M = F_{\text{hand}} \cdot d_{\text{handle}} = F_{\text{shear}} \cdot d_{\text{
 
 $$\tau = \frac{F_{\text{shear}}}{A_{\text{contact}}}$$
 
-  $M$: Mechanical torque applied about the central pivot axis.
+  &nbsp;&nbsp;&nbsp; $M$: Mechanical torque applied about the central pivot axis.
   
-  $F_{\text{hand}}$: Input manual force exerted by the user's hand at the handle grip.
+  &nbsp;&nbsp;&nbsp; $F_{\text{hand}}$: Input manual force exerted by the user's hand at the handle grip.
   
-  $d_{\text{handle}}$: Distance from the hand grip center to the pivot axis center.
+  &nbsp;&nbsp;&nbsp; $d_{\text{handle}}$: Distance from the hand grip center to the pivot axis center.
   
-  $F_{\text{shear}}$: Output transverse force transmitted to the target material at the blade edge.
+  &nbsp;&nbsp;&nbsp; $F_{\text{shear}}$: Output transverse force transmitted to the target material at the blade edge.
   
-  $d_{\text{cut}}$: Distance from the material contact point to the pivot axis center.
+  &nbsp;&nbsp;&nbsp; $d_{\text{cut}}$: Distance from the material contact point to the pivot axis center.
   
-  $\tau$: Average shear stress developed within the material contact zone.
+  &nbsp;&nbsp;&nbsp; $\tau$: Average shear stress developed within the material contact zone.
   
-  $A_{\text{contact}}$: Cross-sectional shear area of the material being cut.
+  &nbsp;&nbsp;&nbsp; $A_{\text{contact}}$: Cross-sectional shear area of the material being cut.
 
 **Model Assumption:** The scissor blades act as perfectly rigid bodies, undergoing zero longitudinal flexure or torsional twisting under operational loads.
 
 c. Component Photographs and Geometry Analysis
 
-Component 1 - Primary Blade & Handle
+&nbsp;&nbsp;&nbsp; **Component 1 - Primary Blade & Handle**
 
 The component features a rigid steel blade section tapering toward the tip, fused to a synthetic polymer handle loop. The large ratio of handle length ($d_{\text{handle}}$) relative to the blade cutting distance ($d_{\text{cut}}$) provides mechanical advantage, multiplying input hand forces into higher output shear forces near the pivot. The angled wedge cross-section focuses the output force across a narrow surface, concentrating shear stress along the cutting edge.
 
-Component 2 - Secondary Blade & Handle
+&nbsp;&nbsp;&nbsp; **Component 2 - Secondary Blade & Handle**
 
 Mirroring the primary blade, this component features a handle loop designed to constrain finger movement relative to the primary handle. The inner face of the steel blade is manufactured with a subtle longitudinal curvature (bowing) toward the mating blade. This specific geometry ensures a continuous single-point contact interface as the blades rotate closed, maintaining localized normal contact force directly at the cutting point.
 
-Component 3 - Central Fastener
+&nbsp;&nbsp;&nbsp; **Component 3 - Central Fastener**
 
 A cylindrical threaded pin passes through concentric holes in both steel blades to establish a fixed rotational axis. The raised flange holds both blade faces in tight contact, constraining lateral separation during planar rotation.
 
 d. Patent research and Design Analysis
 
 *Patent Number:* US 6,493,947 B2
+
+*Inventors/Authors:* Lars Hedstrom et al.
+
+Design Choice Rationale:
 
 ## Decide
 
