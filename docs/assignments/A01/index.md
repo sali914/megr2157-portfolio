@@ -38,7 +38,7 @@ The writing follows a technical voice suitable for an engineering recruiter or l
 
 a. Primary engineering Function
 
-Converts opposing user-applied hand forces at two input handles into counter-rotating mechanical torque about a pivot axis, which generates a shear stress along the overlapping cutting edges.
+Converts opposing user-applied hand forces at two input handles into counter-rotating mechanical torque about a detachable pivot axis, which generates a shear stress along the overlapping cutting edges.
 
 b. Governing Model
 The system's mechanical behavior is governed by a combination of Class 1 moment equilibrium and average transverse shear stress equations:
@@ -61,29 +61,37 @@ $$\tau = \frac{F_{\text{shear}}}{A_{\text{contact}}}$$
   
   &nbsp;&nbsp;&nbsp; $A_{\text{contact}}$: Cross-sectional shear area of the material being cut.
 
-**Model Assumption:** The scissor blades act as perfectly rigid bodies, undergoing zero longitudinal flexure or torsional twisting under operational loads.
+**Model Assumption:** The individual steel blade components act as perfectly rigid bodies, undergoing zero flexure or torsional twist during force transmission.
 
 c. Component Photographs and Geometry Analysis
 
-&nbsp;&nbsp;&nbsp; **Component 1 - Primary Blade & Handle**
+<img width="3000" height="4000" alt="Full_Scissor" src="https://github.com/user-attachments/assets/813e35ff-66b7-4478-9934-436d1f5a36e3" />
 
-The component features a rigid steel blade section tapering toward the tip, fused to a synthetic polymer handle loop. The large ratio of handle length ($d_{\text{handle}}$) relative to the blade cutting distance ($d_{\text{cut}}$) provides mechanical advantage, multiplying input hand forces into higher output shear forces near the pivot. The angled wedge cross-section focuses the output force across a narrow surface, concentrating shear stress along the cutting edge.
+*Patent Number:* US 6,493,947 B2 | *Inventors/Authors:* Lars Hedstrom et al. | *Filed:* Jan. 22, 2001 | *Granted:* Dec. 17, 2002
 
-&nbsp;&nbsp;&nbsp; **Component 2 - Secondary Blade & Handle**
+&nbsp;&nbsp;&nbsp; **Component 1 - Primary Blade & Keyed Pivot Post**
+<img width="3000" height="4000" alt="Comp_1" src="https://github.com/user-attachments/assets/2d969dd3-2c6b-4ae5-8573-4f615bc2d600" />
 
-Mirroring the primary blade, this component features a handle loop designed to constrain finger movement relative to the primary handle. The inner face of the steel blade is manufactured with a subtle longitudinal curvature (bowing) toward the mating blade. This specific geometry ensures a continuous single-point contact interface as the blades rotate closed, maintaining localized normal contact force directly at the cutting point.
+This component integrates a steel blade, an ergonomic handle loop, and an asymmetric raised pivot post welded or stamped near the fulcrum. The post geometry features two parallel flat edges that align with the mating component's slot at a specific rotation angle (typically open at $90^\circ$). When rotated into normal cutting angles ($0^\circ$ to $45^\circ$), the raised shoulder overlaps the mating blade's recessed track, converting input handle forces into planar rotation while preventing axial separation.
 
-&nbsp;&nbsp;&nbsp; **Component 3 - Central Fastener**
+&nbsp;&nbsp;&nbsp; **Component 2 - Secondary Blade & Keyed Slot Hole**
+<img width="3000" height="4000" alt="Comp_2" src="https://github.com/user-attachments/assets/425152c0-7e6c-4660-a7f0-ed082eed2068" />
 
-A cylindrical threaded pin passes through concentric holes in both steel blades to establish a fixed rotational axis. The raised flange holds both blade faces in tight contact, constraining lateral separation during planar rotation.
+This component features the mating blade edge, handle loop, and a specially profiled keyhole aperture. The aperture consists of a circular central bore with a keyway slot matched to the pivot post of Component 1. The circular bore constrains radial movement during rotation, while the keyway geometry allows complete axial separation only when manually aligned at a designated angle, satisfying sanitation and maintenance requirements.
 
 d. Patent research and Design Analysis
 
-*Patent Number:* US 6,493,947 B2
+**Alternative Solutions for Primary Function:**
 
-*Inventors/Authors:* Lars Hedstrom et al.
+Fixed Threaded Pivot Shears: Uses a permanent threaded fastener or rivet to hold the blades together, preventing non-destructive disassembly.
 
-Design Choice Rationale:
+Spring-Loaded Bypass Shears: Employs a single pivot pin with an external coil spring pushing the handles open, using a mechanical thumb latch to lock the blades closed.
+
+**Design Choice Rationale:**
+
+*Observed Feature -* The asymmetric keyed slip-joint profile (requiring the blades to be opened to $90^\circ$ for separation).
+
+*Engineering Rationale -* The designer selected a keyed slip-joint over a permanent threaded rivet to enable complete disassembly without tools. This geometric feature ensures that during normal operational cutting angles ($0^\circ$ to $45^\circ$), the blade shoulders remain locked together to resist transverse separation forces, while still allowing full separation for washing and sanitizing trapped material along the pivot interface.
 
 ## Decide
 
