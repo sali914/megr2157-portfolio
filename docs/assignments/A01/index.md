@@ -84,9 +84,15 @@ The homepage serves as an executive summary and navigation directory for technic
 
 #### 2. Intentional Customization
 
+Element Changed: Modified the default top banner color to a light red.
 
+Requirement Satisfied: Improves visual hierarchy and satisfies WCAG AA color contrast standards for top-level site elements.
+
+Functional Reason: The original green top bar blended into the rest of the page content, making it harder to distinguish structural navigation from analytical text during quick project reviews.
 
 #### 3. Documentation Standard
+
+Every assignment entry will include fully constrained governing equations, explicitly stated model assumptions, precise geometric function descriptions, and direct references to primary sources such that an independent engineer can verify all analytical reasoning without requesting clarification.
 
 ## Communicate
 
