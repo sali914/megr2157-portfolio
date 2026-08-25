@@ -36,16 +36,17 @@ The writing follows a technical voice suitable for an engineering recruiter or l
 
 ### Task B - Product Analysis
 
-a. Primary engineering Function
+**a. Primary engineering Function**
 
 Converts opposing user-applied hand forces at two input handles into counter-rotating mechanical torque about a detachable pivot axis, which generates a shear stress along the overlapping cutting edges.
 
-b. Governing Model
+**b. Governing Model**
+
 The system's mechanical behavior is governed by a combination of Class 1 moment equilibrium and average transverse shear stress equations.
 
-**Model Assumption:** The individual steel blade components act as perfectly rigid bodies, undergoing zero flexure or torsional twist during force transmission.
+*Model Assumption:* The individual steel blade components act as perfectly rigid bodies, undergoing zero flexure or torsional twist during force transmission.
 
-c. Component Photographs and Geometry Analysis
+**c. Component Photographs and Geometry Analysis**
 
 <img width="3000" height="4000" alt="Full_Scissor" src="https://github.com/user-attachments/assets/813e35ff-66b7-4478-9934-436d1f5a36e3" />
 
