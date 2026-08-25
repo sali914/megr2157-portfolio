@@ -4,7 +4,7 @@
 Establishing a professional baseline for documenting and evaluating engineering work. Along with demonstrating the ability to apply analytical models to physical systems, make and justify technical design decisions using functional criteria, and communicate your reasoning clearly through a live, web-hosted documentation portfolio.
 
 ## Analyze
-Task A - Analyzing Portfolios
+### Task A - Analyzing Portfolios
 
 Portfolio 1 - https://nhoong.github.io/
 
@@ -34,8 +34,52 @@ The portfolio consistently demonstrates how analytical methods impacted physical
 Professional Tone: 
 The writing follows a technical voice suitable for an engineering recruiter or lead designer. The narrative incorporated domain specific language, such as GD&T or topology optimization, to explain physical constraints and failure modes. The site tended to avoid a more casual blog-like style of story telling in favor of grounding project descriptions in physical parameters, manufacturing constraints, and verified structural behaviors. 
 
-Task B - Product Analysis
+### Task B - Product Analysis
 
+a. Primary engineering Function
+
+Converts opposing user-applied hand forces at two input handles into counter-rotating mechanical torque about a pivot axis, which generates a shear stress along the overlapping cutting edges.
+
+b. Governing Model
+The system's mechanical behavior is governed by a combination of Class 1 moment equilibrium and average transverse shear stress equations:
+
+$$M = F_{\text{hand}} \cdot d_{\text{handle}} = F_{\text{shear}} \cdot d_{\text{cut}}$$
+
+$$\tau = \frac{F_{\text{shear}}}{A_{\text{contact}}}$$
+
+  $M$: Mechanical torque applied about the central pivot axis.
+  
+  $F_{\text{hand}}$: Input manual force exerted by the user's hand at the handle grip.
+  
+  $d_{\text{handle}}$: Distance from the hand grip center to the pivot axis center.
+  
+  $F_{\text{shear}}$: Output transverse force transmitted to the target material at the blade edge.
+  
+  $d_{\text{cut}}$: Distance from the material contact point to the pivot axis center.
+  
+  $\tau$: Average shear stress developed within the material contact zone.
+  
+  $A_{\text{contact}}$: Cross-sectional shear area of the material being cut.
+
+**Model Assumption:** The scissor blades act as perfectly rigid bodies, undergoing zero longitudinal flexure or torsional twisting under operational loads.
+
+c. Component Photographs and Geometry Analysis
+
+Component 1 - Primary Blade & Handle
+
+The component features a rigid steel blade section tapering toward the tip, fused to a synthetic polymer handle loop. The large ratio of handle length ($d_{\text{handle}}$) relative to the blade cutting distance ($d_{\text{cut}}$) provides mechanical advantage, multiplying input hand forces into higher output shear forces near the pivot. The angled wedge cross-section focuses the output force across a narrow surface, concentrating shear stress along the cutting edge.
+
+Component 2 - Secondary Blade & Handle
+
+Mirroring the primary blade, this component features a handle loop designed to constrain finger movement relative to the primary handle. The inner face of the steel blade is manufactured with a subtle longitudinal curvature (bowing) toward the mating blade. This specific geometry ensures a continuous single-point contact interface as the blades rotate closed, maintaining localized normal contact force directly at the cutting point.
+
+Component 3 - Central Fastener
+
+A cylindrical threaded pin passes through concentric holes in both steel blades to establish a fixed rotational axis. The raised flange holds both blade faces in tight contact, constraining lateral separation during planar rotation.
+
+d. Patent research and Design Analysis
+
+*Patent Number:* US 6,493,947 B2
 
 ## Decide
 
