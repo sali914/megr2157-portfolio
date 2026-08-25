@@ -62,22 +62,31 @@ This component integrates a steel blade, an ergonomic handle loop, and an asymme
 
 This component features the mating blade edge, handle loop, and a specially profiled keyhole aperture. The aperture consists of a circular central bore with a keyway slot matched to the pivot post of Component 1. The circular bore constrains radial movement during rotation, while the keyway geometry allows complete axial separation only when manually aligned at a designated angle, satisfying sanitation and maintenance requirements.
 
-d. Patent research and Design Analysis
+**d. Patent research and Design Analysis**
 
-**Alternative Solutions for Primary Function:**
+*Alternative Solutions for Primary Function:*
 
 Fixed Threaded Pivot Shears: Uses a permanent threaded fastener or rivet to hold the blades together, preventing non-destructive disassembly.
 
 Spring-Loaded Bypass Shears: Employs a single pivot pin with an external coil spring pushing the handles open, using a mechanical thumb latch to lock the blades closed.
 
-**Design Choice Rationale:**
+*Design Choice Rationale:*
 
-*Observed Feature -* The asymmetric keyed slip-joint profile (requiring the blades to be opened to $90^\circ$ for separation).
+Observed Feature - The asymmetric keyed slip-joint profile (requiring the blades to be opened to $90^\circ$ for separation).
 
-*Engineering Rationale -* The designer selected a keyed slip-joint over a permanent threaded rivet to enable complete disassembly without tools. This geometric feature ensures that during normal operational cutting angles ($0^\circ$ to $45^\circ$), the blade shoulders remain locked together to resist transverse separation forces, while still allowing full separation for washing and sanitizing trapped material along the pivot interface.
+Engineering Rationale - The designer selected a keyed slip-joint over a permanent threaded rivet to enable complete disassembly without tools. This geometric feature ensures that during normal operational cutting angles ($0^\circ$ to $45^\circ$), the blade shoulders remain locked together to resist transverse separation forces, while still allowing full separation for washing and sanitizing trapped material along the pivot interface.
 
 ## Decide
 
+#### 1. Homepage Identity Justification
+
+The homepage serves as an executive summary and navigation directory for technical reviewers, hiring managers, and course auditors. The content prioritizes site navigation, repository hierarchy, and assignment quality standards over personal narrative, allowing an evaluator to locate technical deliverables, assess documentation rigor, and verify project requirements in under 60 seconds without searching through extraneous personal details.
+
+#### 2. Intentional Customization
+
+
+
+#### 3. Documentation Standard
 
 ## Communicate
 
