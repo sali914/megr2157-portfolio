@@ -41,25 +41,7 @@ a. Primary engineering Function
 Converts opposing user-applied hand forces at two input handles into counter-rotating mechanical torque about a detachable pivot axis, which generates a shear stress along the overlapping cutting edges.
 
 b. Governing Model
-The system's mechanical behavior is governed by a combination of Class 1 moment equilibrium and average transverse shear stress equations:
-
-$$M = F_{\text{hand}} \cdot d_{\text{handle}} = F_{\text{shear}} \cdot d_{\text{cut}}$$
-
-$$\tau = \frac{F_{\text{shear}}}{A_{\text{contact}}}$$
-
-  &nbsp;&nbsp;&nbsp; $M$: Mechanical torque applied about the central pivot axis.
-  
-  &nbsp;&nbsp;&nbsp; $F_{\text{hand}}$: Input manual force exerted by the user's hand at the handle grip.
-  
-  &nbsp;&nbsp;&nbsp; $d_{\text{handle}}$: Distance from the hand grip center to the pivot axis center.
-  
-  &nbsp;&nbsp;&nbsp; $F_{\text{shear}}$: Output transverse force transmitted to the target material at the blade edge.
-  
-  &nbsp;&nbsp;&nbsp; $d_{\text{cut}}$: Distance from the material contact point to the pivot axis center.
-  
-  &nbsp;&nbsp;&nbsp; $\tau$: Average shear stress developed within the material contact zone.
-  
-  &nbsp;&nbsp;&nbsp; $A_{\text{contact}}$: Cross-sectional shear area of the material being cut.
+The system's mechanical behavior is governed by a combination of Class 1 moment equilibrium and average transverse shear stress equations.
 
 **Model Assumption:** The individual steel blade components act as perfectly rigid bodies, undergoing zero flexure or torsional twist during force transmission.
 
