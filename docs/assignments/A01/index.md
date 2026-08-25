@@ -55,7 +55,7 @@ The system's mechanical behavior is governed by a combination of Class 1 moment 
 &nbsp;&nbsp;&nbsp; **Component 1 - Primary Blade & Keyed Pivot Post**
 <img width="3000" height="4000" alt="Comp_1" src="https://github.com/user-attachments/assets/2d969dd3-2c6b-4ae5-8573-4f615bc2d600" />
 
-This component integrates a steel blade, an ergonomic handle loop, and an asymmetric raised pivot post welded or stamped near the fulcrum. The post geometry features two parallel flat edges that align with the mating component's slot at a specific rotation angle (typically open at $90^\circ$). When rotated into normal cutting angles ($0^\circ$ to $45^\circ$), the raised shoulder overlaps the mating blade's recessed track, converting input handle forces into planar rotation while preventing axial separation.
+This component integrates a steel blade, an ergonomic handle loop, and an asymmetric raised pivot post welded or stamped near the fulcrum. The post geometry features two parallel flat edges that align with the mating component's slot at a specific rotation angle (typically open at 90 degrees). When rotated into normal cutting angles (0 to 45 degrees), the raised shoulder overlaps the mating blade's recessed track, converting input handle forces into planar rotation while preventing axial separation.
 
 &nbsp;&nbsp;&nbsp; **Component 2 - Secondary Blade & Keyed Slot Hole**
 <img width="3000" height="4000" alt="Comp_2" src="https://github.com/user-attachments/assets/425152c0-7e6c-4660-a7f0-ed082eed2068" />
@@ -74,7 +74,7 @@ Spring-Loaded Bypass Shears: Employs a single pivot pin with an external coil sp
 
 Observed Feature - The asymmetric keyed slip-joint profile (requiring the blades to be opened to $90^\circ$ for separation).
 
-Engineering Rationale - The designer selected a keyed slip-joint over a permanent threaded rivet to enable complete disassembly without tools. This geometric feature ensures that during normal operational cutting angles ($0^\circ$ to $45^\circ$), the blade shoulders remain locked together to resist transverse separation forces, while still allowing full separation for washing and sanitizing trapped material along the pivot interface.
+Engineering Rationale - The designer selected a keyed slip-joint over a permanent threaded rivet to enable complete disassembly without tools. This geometric feature ensures that during normal operational cutting angles (0 to 45 degrees), the blade shoulders remain locked together to resist transverse separation forces, while still allowing full separation for washing and sanitizing trapped material along the pivot interface.
 
 ## Decide
 
