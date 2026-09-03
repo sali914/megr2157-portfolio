@@ -14,6 +14,9 @@
 
 ## Analyze
 
+<img width="317" height="215" alt="image" src="https://github.com/user-attachments/assets/f389b006-cea0-4655-9882-89db2c3ef784" />
+
+The image above, Figure #1, showcases the geometric constraints of the truss. The values provided are: P = any force between 20 and 30 kN, a = 0.4 m, and b = 0.3 m. The cross sectional area of each element needs to be identical. 
 
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
