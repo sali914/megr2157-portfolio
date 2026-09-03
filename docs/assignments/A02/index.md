@@ -35,7 +35,7 @@ The image above, Figure #1, showcases the geometric constraints of the truss. Th
 
 ### b. Use the largest internal force to calculate the required cross-sectional area of the elements using a safety factor of 3.5, and the yield strength. 
 
-#### i. Before sizing the physical beams, all known constraints, such as the yield strength, safety factor, and maximum internal force, were clearly listed alongside the target unknown variables in the image below. The normal stress equation ($\sigma = F/A$) was then rearranged symbolically to isolate the minimum required cross-sectional area. I chose to increase the minimum cross-sectional area to a more standard number of 225 $mm^2$, which I then used to calculate the actual safety factor.
+#### i - iii. Before sizing the physical beams, all known constraints, such as the yield strength, safety factor, and maximum internal force, were clearly listed alongside the target unknown variables in the image below. The normal stress equation ($\sigma = F/A$) was then rearranged symbolically to isolate the minimum required cross-sectional area. I chose to increase the minimum cross-sectional area to a more standard number of 225 $mm^2$, which I then used to calculate the actual safety factor of 3.51.
 
 <img width="2238" height="628" alt="p-4" src="https://github.com/user-attachments/assets/ec94af90-5074-46ff-ba29-4cd9f349b733" />
 
