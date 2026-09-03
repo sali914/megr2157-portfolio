@@ -141,7 +141,7 @@ Hibbeler, R. C. (2018). Mechanics of Materials (10th ed.). Pearson. (Referenced 
 
 ## CAD Files:
 
-[https://drive.google.com/file/d/1X6tNooN8AC1mDGkjRlYHt0GaKh64iIOu/view?usp=sharing]
+[https://drive.google.com/file/d/1X6tNooN8AC1mDGkjRlYHt0GaKh64iIOu/view?usp=sharing](https://drive.google.com/file/d/1X6tNooN8AC1mDGkjRlYHt0GaKh64iIOu/view?usp=sharing)
 
 ## Project Process, Mistakes, and Time Taken
 
