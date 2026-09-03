@@ -93,7 +93,63 @@ Finally, I needed to check if my hand-calculated weight matched what the compute
 
 <img width="605" height="350" alt="Screenshot 2026-09-03 011747" src="https://github.com/user-attachments/assets/cff04eef-6a78-433a-9dde-efb37108465d" />
 
+## Likelihood of Failure Modes in Truss Components
+
+Research the likelihood of different failure modes in the components of a truss.
+
+### Part 1 - Truss Members
+
+#### i. Identify the expected failure mode (yielding, fracture, or buckling).
+
+The primary anticipated mode of failure for these tension members is yielding. This means the material will stretch permanently out of its original shape rather than breaking cleanly into two pieces.
+
+#### ii. State whether the material is ductile or brittle.
+
+ASTM A36 Steel is classified as a highly ductile material. This characteristic allows the steel to undergo significant plastic deformation before it actually reaches its breaking point.
+
+#### iii. Support your choice using stress comparisons and simple reasoning.
+
+Because A36 steel is ductile, tension members will safely stretch out of shape if the internal force exceeds the 250 MPa yield strength. The calculated internal stresses show that the structural frame will deform visually long before reaching the ultimate tensile strength required for a catastrophic fracture.
+
+#### iv. Propose a design modification that could reduce the likelihood of this failure.
+
+To reduce the likelihood of yielding, the cross-sectional area of the tension members could be uniformly increased, which directly lowers the internal stress since stress equals force divided by area. Or, swapping the material to a higher-strength grade like ASTM A572 steel would provide a much higher yield threshold without needing to change the physical geometry.
+
+### Part 2 - Pin Connections
+
+#### i. Identify the expected failure mode of the pin.
+
+The expected failure modes at the joints are either direct shear failure of the pin or bearing failure of the surrounding beam material. Shear failure involves the pin snapping under a slicing force, while bearing failure involves the hard pin elongating the hole in the softer beam.
+
+#### ii. Support your answer with data from credible, known sources.
+
+The pins are machined from Hardened Tool Steel, which boasts an extremely high yield shear strength (around 170 ksi) but is much more brittle than the A36 structural beams. According to standard mechanics of materials principles detailed in the Machinery's Handbook (p. 212), these single-shear joints face a concentrated slicing force exactly where the two structural beams overlap. Because the pin is hardened, an extreme structural overload would likely cause a sudden shear fracture rather than a slow bending yield. However, because the A36 structural steel is significantly softer than the pin, bearing failure is highly likely to occur in the beam itself before the tool steel pin actually shears.
+
+#### iii. Propose a design modification to reduce the likelihood of this failure
+
+The most effective way to eliminate the likelihood of pin failure is to upgrade the joint from a single-shear design to a double-shear connection. By using a U-shaped bracket where the pin passes through three overlapping plates instead of two, the applied shear stress on the pin is immediately cut in half.
+
 ## 5. Engineering Lesson Learned
 
 Throughout this project, I gained a deeper understanding of how local geometric features impact global structural integrity, specifically regarding joint design. I learned that simply removing material for a connection pin critically reduces the cross-sectional area, which creates a high-stress concentration highly susceptible to tear-out or bearing failure. To mitigate this mechanical vulnerability, I learned how to strategically design material hubs around the pin joints to compensate for the internal void and maintain the uniform cross-sectional area. Furthermore, translating the theoretical static equations into a functional CAD assembly taught me how to effectively validate manual weight optimization calculations against computationally predicted mass properties.
+
+## Citations:
+
+Oberg, E., Jones, F. D., Horton, H. L., & Ryffel, C. H. (2020). Machinery's Handbook (31st ed.). Industrial Press. (Specifically referencing "Stress and Strain/Working Stress" p. 212, and "Simple Stresses" pp. 216-218 for shear and normal stress behaviors).
+
+Hibbeler, R. C. (2018). Mechanics of Materials (10th ed.). Pearson. (Referenced for Euler's critical buckling load reasoning and single vs. double shear joints).
+
+## CAD Files:
+
+[https://drive.google.com/file/d/1X6tNooN8AC1mDGkjRlYHt0GaKh64iIOu/view?usp=sharing]
+
+## Project Process, Mistakes, and Time Taken
+
+**Process and Mistakes**
+
+The initial hand calculations for the internal forces and minimum cross-sectional areas were straightforward, but translating the theoretical truss into a 3D CAD model presented several challenges. Initially, I attempted to build the truss using custom weldment library profiles, but I made a mistake in how the custom file directories were structured, preventing the software from reading the sizes. I then attempted to manually offset and trim the sketch lines as a workaround, but this deleted the geometric relations and left the sketch completely underdefined. Ultimately, I realized the most efficient process was to apply a default ISO structural member to my skeleton sketch, open the underlying sketch profile generated by the software, and manually edit the cross-section to my required 10 mm by 22.5 mm dimensions before fusing the bodies together.
+
+**Total Time Taken** 
+
+From the initial Free Body Diagrams and static equilibrium calculations to the final SolidWorks assembly and documentation formatting, this entire project took approximately 13 hours to complete.
 
