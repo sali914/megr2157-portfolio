@@ -43,9 +43,16 @@ The image above, Figure #1, showcases the geometric constraints of the truss. Th
 
 <img width="2532" height="1038" alt="p-5" src="https://github.com/user-attachments/assets/584990a3-4214-4ff0-a56d-ef40e5bf280b" />
 
-##3. Determine the cross-sectional area of the connecting pins
+## 3. Determine the cross-sectional area of the connecting pins
 
-### 
+### a. Calculate the required cross-sectional area of the pins to withstand the expected shear forces. Design a single shear connection. Use a safety factor of 4.
+
+#### i. Before starting the pin design process, material properties for the hardened tool steel, such as the yield shear strength (170 ksi) and density (7695 kg/ $m^3$) were explicitly listed alongside the required safety factor of 4. The unknown variables, including the minimum required cross-sectional area, pin diameter, and total combined weight, were clearly identified to structure the upcoming calculations.
+
+#### ii - iv. A specific Free Body Diagram was sketched for the pin experiencing the largest reaction load within the truss structure. This diagram visually isolated the single-shear connection, showing exactly how the maximum 20 kN force attempts to slice through the pin's cross-section between the structural members. Along with that, the basic shear stress equation ($\tau = V/A$) was rearranged to isolate the minimum area. The specific project values, like the 20 kN maximum shear force, 1172 MPa yield shear strength, and safety factor of 4, were inserted into the symbolic formula to find the exact numerical requirement. This calculation helped to determine a minimum required cross-sectional area of 68.26 mm², which was then safely satisfied by selecting a standard 10 mm diameter pin . Finally, the total volume of all five 45 mm-long pins was multiplied by the tool steel's density to calculate a lightweight combined mass of approximately 0.136 kg, or 1.33 N.
+
+<img width="2532" height="1634" alt="p-6" src="https://github.com/user-attachments/assets/d4ab5b63-8386-4106-b934-bcb592415392" />
+
 
 ## Communicate
 
