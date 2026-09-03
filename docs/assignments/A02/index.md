@@ -39,6 +39,13 @@ The image above, Figure #1, showcases the geometric constraints of the truss. Th
 
 <img width="2238" height="628" alt="p-4" src="https://github.com/user-attachments/assets/ec94af90-5074-46ff-ba29-4cd9f349b733" />
 
+#### iv. The exact maximum internal force, the 250 MPa yield strength, and the safety factor of 3.5 were used in the symbolic area formula resulted in a minimum cross-sectional area of 224.28 mm², which was practically achieved by selecting a 10 mm by 22.5 mm rectangular beam profile. The total length of the members were calculated to determine the volume. Finally, multiplying this volume and the density of ASTM A36 steel yielded an approximate truss weight of 57.39 N.
+
+<img width="2532" height="1038" alt="p-5" src="https://github.com/user-attachments/assets/584990a3-4214-4ff0-a56d-ef40e5bf280b" />
+
+##3. Determine the cross-sectional area of the connecting pins
+
+### 
 
 ## Communicate
 
