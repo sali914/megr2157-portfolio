@@ -68,13 +68,18 @@ Drilling holes for the pins removes material, which weakens the joints and viola
 
 <img width="750" height="500" alt="Screenshot 2026-09-03 010512" src="https://github.com/user-attachments/assets/7794d313-1058-419a-bb16-ae3809adbb56" />
 
-### c.
+### c. Ensure that the truss design satisfies the safety factor, weight optimization goal, and geometric constraints while maintaining structural integrity and stability.
 
+I had to make sure the 3D model exactly matched the math and size rules from the earlier steps. I carefully typed in the required 0.4 m width and 0.3 m height, and set all the beams to the safe 10 mm by 22.5 mm size we calculated. By following these exact numbers, the final model is as light as possible while still being strong enough to hold the 20 kN load safely.
 
+<img width="643" height="314" alt="Screenshot 2026-09-03 010911" src="https://github.com/user-attachments/assets/d28309c5-e9aa-4938-8875-b2ace72f4f47" />
+<img width="564" height="245" alt="Screenshot 2026-09-03 011049" src="https://github.com/user-attachments/assets/65263fdb-c354-46a5-b606-283941fdeb38" />
 
-### d.
+### d. Implement mass properties in the CAD model and determine the predicted weight, accordingly.
 
+Finally, I needed to check if my hand-calculated weight matched what the computer predicted. I told SolidWorks that the truss was made of A36 Steel and the pins were Tool Steel so it knew exactly how heavy the materials should be. Then, I used the software's Mass Properties tool to find the mass of the final assembly, which was a value of m = 5.919 kg, which was off from my hand-calculated value of m = 5.986 kg.
 
+<img width="605" height="350" alt="Screenshot 2026-09-03 011747" src="https://github.com/user-attachments/assets/cff04eef-6a78-433a-9dde-efb37108465d" />
 
 ## 5. Engineering Lesson Learned
 
