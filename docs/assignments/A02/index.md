@@ -53,6 +53,30 @@ The image above, Figure #1, showcases the geometric constraints of the truss. Th
 
 <img width="2532" height="1634" alt="p-6" src="https://github.com/user-attachments/assets/d4ab5b63-8386-4106-b934-bcb592415392" />
 
+## 4. Utilize CAD software to generate a 3D model of the truss. Model the pins as cylinders with the appropriate cross-sectional areas and lengths.
 
-## Communicate
+### a. Represent the truss minus the pins as one part in CAD.
+
+I needed to model the main frame of the truss as one single piece to match the project rules. To do this in SolidWorks, I drew a flat 2D layout and used the software to build solid beams along those lines, fusing them all together into one object. This gave me a single, continuous 3D part for the truss itself, keeping the pins separate for later.
+
+<img width="2782" height="937" alt="Screenshot 2026-09-03 010306" src="https://github.com/user-attachments/assets/521555bf-6467-44e1-9fb3-763f62cd61cd" />
+
+
+### b. Maintain the cross-sectional area of each element at the intersection of the pin joint.
+
+Drilling holes for the pins removes material, which weakens the joints and violates the project's area rules. To fix this, I added extra circular hubs of material around every joint before cutting the 10 mm holes through them. This extra padding made sure the joints stayed strong and kept the exact same amount of material as the rest of the beams.
+
+<img width="750" height="500" alt="Screenshot 2026-09-03 010512" src="https://github.com/user-attachments/assets/7794d313-1058-419a-bb16-ae3809adbb56" />
+
+### c.
+
+
+
+### d.
+
+
+
+## 5. Engineering Lesson Learned
+
+Throughout this project, I gained a deeper understanding of how local geometric features impact global structural integrity, specifically regarding joint design. I learned that simply removing material for a connection pin critically reduces the cross-sectional area, which creates a high-stress concentration highly susceptible to tear-out or bearing failure. To mitigate this mechanical vulnerability, I learned how to strategically design material hubs around the pin joints to compensate for the internal void and maintain the uniform cross-sectional area. Furthermore, translating the theoretical static equations into a functional CAD assembly taught me how to effectively validate manual weight optimization calculations against computationally predicted mass properties.
 
