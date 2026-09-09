@@ -24,7 +24,13 @@ I decided to pick a value of 400 lbf for the applied direct load, and a value of
 
 #### b.) Use the direct tension elongation equation in the Machinery’s Handbook to parametrically determine the length of the bar.
 
+With all of the values I had chosen in step 1a, I rearranged the Direct Tension Elongation Equation to solve for the length, ** L = 35.775 in. **
 
+[IMAGE PLACEHOLDER]
+
+#### c.) Generate the bar in CAD
+
+With all of the values that I have picked/solved for, I designed my bar in SolidWorks by assigning global variables to the dimensions
 
 ## Communicate
 
