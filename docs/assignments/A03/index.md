@@ -107,3 +107,7 @@ Figuring these things out really showed me how much time this kind of linked mod
 
 The whole assignment took me about 4 hours to complete from start to finish.
 
+## CAD File:
+
+[A3_Circular Bar](https://drive.google.com/file/d/1CtaDLMEtg9X8UbRGBjys4Ia5gBsvSmLu/view?usp=drive_link)
+
