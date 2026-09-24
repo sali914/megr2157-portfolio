@@ -121,7 +121,7 @@ The manufacturing process for this connection needs to produce a much more contr
 
 The shaft itself would also need to be manufactured or finished to its specified tolerance. After both parts are manufactured, the actual dimensions can be checked before assembly to make sure the hole and shaft fall within the selected fit limits.
 
-## Mistakes and Corrections
+# Mistakes and Corrections
 
 One of the biggest things I had to correct during the project was the way I modeled **Feature E**. I initially treated it like another cantilever section, but after looking at the actual geometry and the direction of the force, I realized that it was resting against a rigid surface. This meant that the better model was a compression/bearing analysis rather than a cantilever bending analysis. Changing the model also changed which equations were appropriate for the feature.
 
@@ -129,7 +129,7 @@ I also had to be careful with rounding. For the linkage, the calculated minimum 
 
 Another important correction was making sure that the Feature A diameter was carried into the linkage design. Since the linkage hole is based on the **1.152 in Feature A diameter**, changing Feature A would also change the amount of material remaining around the hole in the linkage.
 
-## Lessons Learned & Time Spent
+# Lessons Learned & Time Spent
 
 This project helped me understand how important it is to choose the correct physical model before starting the calculations. The equations themselves are not usually the hardest part. The harder part is figuring out what the part is actually doing and deciding whether the feature should be modeled as a cantilever, axial member, beam, or compression/bearing section.
 
