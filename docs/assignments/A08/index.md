@@ -92,5 +92,11 @@ Time Taken
 
 The entire project took approximately twelve hours to complete. The initial mathematical modeling, including the gear force analysis and journal bearing sizing, required about three hours of focused work. Sourcing the appropriate standard components and modeling the parametric shafts, bearings, and custom aluminum housing in SolidWorks took another four hours. The most meticulous phase was generating the ASME Y14.5 compliant engineering drawings and formatting the specific MEGR 2157 title blocks, which took approximately three hours to ensure all manufacturing tolerances were properly communicated. The final two hours were spent compiling the calculations, CAD renderings, and written analysis into this cohesive design portfolio.
 
-CAD Files:
+CAD Files & Links to MCMASTER Bearings:
+
+[Output Bearing] ((https://www.mcmaster.com/9368T96/))
+
+[Input Bearing] ((https://www.mcmaster.com/9368T13/))
+
+[CAD Files] ((https://drive.google.com/file/d/1JNzmV_rxd3KS7OL6ZGgYk95-DwjLkLnX/view?usp=sharing))
 
