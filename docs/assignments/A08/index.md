@@ -45,38 +45,42 @@ I selected the McMaster-Carr 9368T96 and the 9368T13 bronze sleeve bearing for t
 The custom gearbox housing was designed as a two-part clam-shell assembly modeled in ABS plastic. The center-to-center distance between the bearing bores was explicitly modeled at 0.6875 inches to ensure ideal gear mesh.
 
 <img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/47be4775-7157-48e0-b54f-89f5eda18a5a" />
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/2c801e3d-72dd-481d-9c43-da7ecc7473c9" />
 
 #### 2157 Gearbox Housing Drawing
 
 <img width="500" height="425" alt="image" src="https://github.com/user-attachments/assets/8711e3cc-36f2-441c-9eaf-0d4442beab7d" />
+<img width="500" height="425" alt="image" src="https://github.com/user-attachments/assets/c92585f8-9176-4bbd-b56f-da4822bf891b" />
+
 
 #### Input Shaft Model
 
 The input shaft was modeled parametrically in SolidWorks using a global variable for the 0.125-inch diameter and a length of 1 inch. The material was set to Plain Carbon Steel to validate the allowable shear stress limits used in the calculations.
 
-![[Image Placeholder: Screenshot of the Input Shaft CAD Model]]
+<img width="500" height="400" alt="Screenshot 2026-10-29 034233" src="https://github.com/user-attachments/assets/9f628719-04f6-44ab-866f-48ae319c18e2" />
 
 #### 2157 Input Shaft Drawing
 
-![[Image Placeholder: Drawing Sheet - Input Shaft]]
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/fd0b7c03-78c5-4016-98d0-555fa9472ff0" />
 
-Output Shaft Model
+#### Output Shaft Model
 
 The output shaft was modeled parametrically using a global variable for the 0.250-inch diameter and a length of 1 inch. It was similarly assigned Plain Carbon Steel.
 
-![[Image Placeholder: Screenshot of the Output Shaft CAD Model]]
+<img width="500" height="400" alt="Screenshot 2026-10-29 035622" src="https://github.com/user-attachments/assets/c0de0bad-8bb5-47d2-b799-b652bc609521" />
 
-2157 Output Shaft Drawing
+#### 2157 Output Shaft Drawing
 
-![[Image Placeholder: Drawing Sheet - Output Shaft]]
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/88eb9e21-c245-4a71-89e4-5a34068890d6" />
 
-Final Assembly
+
+#### Final Assembly
 
 In the SolidWorks assembly, the bearings were mated concentrically and coincident to the housing bores. The shafts were mated concentrically to the bearings with rotation unlocked, and centered via distance mates. The gears were mated concentrically to the shafts with rotation locked, and aligned linearly. Finally, a mechanical gear mate with a 24:9 ratio was applied to the shafts to simulate the kinematic rotation of the system.
 
-![[Image Placeholder: Screenshot of the Assembled Gearbox]]
+<img width="600" height="450" alt="image" src="https://github.com/user-attachments/assets/36af2c7d-9ba9-43a8-aab5-32c94bad1944" />
 
-2157 Final Assembly Drawing
+#### 2157 Final Assembly Drawing
 
 ![[Image Placeholder: Drawing Sheet - Final Assembly]]
 
