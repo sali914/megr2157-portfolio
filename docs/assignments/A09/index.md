@@ -9,7 +9,7 @@ For my design, I selected ABS for the pulleys, polyurethane rubber for the belt,
 <img width="295" height="100" alt="image" src="https://github.com/user-attachments/assets/e39193cc-d460-40b6-92fa-ab58c38c7d8c" />
 
 
-### Belt Design
+### 1. Belt Design
 
 #### Knowns and Unknowns
 
@@ -51,7 +51,7 @@ Using the preliminary calculated tight-side tension, the belt has a tensile safe
 
 ### 2. Shaft Design
 
-Knowns and Unknowns
+#### Knowns and Unknowns
 
 After completing the belt design, I moved on to calculating the minimum shaft diameter. The shafts were required to be made from 1060 hardened steel.
 
@@ -59,7 +59,7 @@ I used the previously calculated belt tensions to determine the torque transmitt
 
 [Insert Image: Shaft Design Knowns and Unknowns]
 
-Free-Body Diagram
+#### Free-Body Diagram
 
 I created a free-body diagram to identify the forces and torque acting on the shaft. The belt tensions produce a net torque, while the combined belt forces produce a transverse load on the shaft.
 
@@ -67,195 +67,36 @@ For the preliminary design, I assumed the pulley was centered between two bearin
 
 [Insert Image: Shaft Free-Body Diagram]
 
-Symbolically Solving
+####  Solving
 
-I began by calculating the transmitted torque:
+I began by calculating the transmitted torque, Mt = 5.808 lbf - in. I then used the torsional shear stress equation for a solid circular shaft. After substituting the geometric relationships for the area of a circular shaft, I solved for an area of 0.01098 in^2. Once the minimum area was determined, I calculated the corresponding shaft diameter of 0.1182. Using a tensile yield strength of 93,000 psi for the selected hardened steel condition, I applied the von Mises criterion and a safety factor of 3.
 
-$$
-M_t=(T_1-T_2)r
-$$
-
-I then used the torsional shear stress equation for a solid circular shaft:
-
-$$
-\tau_{\max}=\frac{M_tc}{J}
-$$
-
-After substituting the geometric relationships for a circular shaft, the equation becomes:
-
-$$
-\tau_{\max}=\frac{16M_t}{\pi d^3}
-$$
-
-Since the assignment requested the minimum cross-sectional area, I rearranged the torsion equation in terms of area:
-
-$$
-A_{\min}=\left(\frac{2\sqrt{\pi}M_t}{\tau_{\text{allow}}}\right)^{2/3}
-$$
-
-Once the minimum area was determined, I calculated the corresponding shaft diameter.
-
-$$
-d_{\min}=\sqrt{\frac{4A_{\min}}{\pi}}
-$$
-
-[Insert Image: Shaft Design Symbolic Calculations]
-
-Numerically Solving
-
-Using the calculated belt tensions, I determined the transmitted torque to be:
-
-$$
-M_t=(6.936-3.064)(1.5)=5.808\text{ lbf}\cdot\text{in}
-$$
-
-Using a tensile yield strength of 93,000 psi for the selected hardened steel condition, I applied the von Mises criterion and a safety factor of 3.
-
-Parameter
-
-Value
-
-Transmitted torque
-
-5.808 lbf·in
-
-Assumed tensile yield strength
-
-93,000 psi
-
-Allowable shear stress
-
-17,897.86 psi
-
-Minimum shaft area
-
-0.01098 in²
-
-Minimum shaft diameter
-
-0.1182 in
-
-Selected shaft diameter
-
-0.125 in
-
-I selected a standard 1/8-inch shaft diameter because it exceeded the calculated torsional minimum.
-
-The selected shaft satisfies the preliminary torsional stress requirement. However, the calculation does not include bending from the belt forces, so the final shaft design would require an additional combined-loading analysis.
+I then chose to select a more standard 1/8-inch shaft diameter because it exceeded the calculated torsional minimum.
 
 [Insert Image: Shaft Design Numerical Calculations]
 
-3. Journal Bearing Design
+### 3. Journal Bearing Design
 
-Knowns and Unknowns
+#### Knowns and Unknowns
 
-The next portion of the assignment involved selecting a journal bearing capable of supporting the rotating shaft.
-
-I used the shaft diameter of 0.125 inches, rotational speed of 1500 rpm, and the bearing reactions determined from the belt forces.
-
-I assumed that each shaft was supported by two bearings, with the pulley centered between them. This arrangement distributes the 10 lbf transverse belt load equally, resulting in 5 lbf per bearing.
+The next portion of the assignment involved selecting a journal bearing capable of supporting the rotating shaft. I used the shaft diameter of 0.125 inches, rotational speed of 1500 rpm, and the bearing reactions determined from the belt forces. I assumed that each shaft was supported by two bearings, with the pulley centered between them. This arrangement distributes the 10 lbf transverse belt load equally, resulting in 5 lbf per bearing.
 
 [Insert Image: Journal Bearing Knowns and Unknowns]
 
-Free-Body Diagram
+### Free-Body Diagram
 
-I created a free-body diagram showing the pulley load acting on the shaft and the reactions at both journal bearings.
-
-With the pulley centered between the supports, the bearing reactions were calculated as:
-
-$$
-R_A=R_B=\frac{10}{2}=5\text{ lbf}
-$$
+I created a free-body diagram showing the pulley load acting on the shaft and the reactions at both journal bearings. With the pulley centered between the supports, the bearing reactions were calculated as RA = RB = 5 lbf
 
 [Insert Image: Journal Bearing Free-Body Diagram]
 
-Symbolically Solving
+### Solving
 
-I began with the projected bearing area:
-
-$$
-A_p=d_sL
-$$
-
-The bearing pressure was then calculated using:
-
-$$
-P=\frac{F_r}{d_sL}
-$$
-
-Next, I determined the shaft's linear surface velocity:
-
-$$
-V=\frac{\pi d_sN}{12}
-$$
-
-Finally, I multiplied the bearing pressure by the surface velocity to calculate the PV rating.
-
-$$
-PV=P\times V
-$$
-
-These values would allow me to compare the operating conditions against the material limits provided in Machinery's Handbook.
+I began with the projected bearing area, Ap = 0.03125 in^2. The bearing pressure was then calculated using P = Fr / Ap, which was equal to 160 psi. Next, I determined the shaft's linear surface velocity as v = 49.09 ft/min. Finally, I multiplied the bearing pressure by the surface velocity to calculate the PV rating, PV = 7854.4 psi - ft/min.
 
 [Insert Image: Journal Bearing Symbolic Calculations]
 
-Numerically Solving
 
-I selected a preliminary bearing length of 0.250 inches and used the 0.125-inch shaft diameter to calculate the projected bearing area.
-
-$$
-A_p=(0.125)(0.250)=0.03125\text{ in}^2
-$$
-
-The bearing pressure was:
-
-$$
-P=\frac{5}{0.03125}=160\text{ psi}
-$$
-
-The surface velocity was:
-
-$$
-V=\frac{\pi(0.125)(1500)}{12}=49.087\text{ ft/min}
-$$
-
-The resulting PV rating was:
-
-$$
-PV=(160)(49.087)=7853.98\text{ psi}\cdot\text{ft/min}
-$$
-
-Parameter
-
-Value
-
-Shaft diameter
-
-0.125 in
-
-Bearing length
-
-0.250 in
-
-Load per bearing
-
-5 lbf
-
-Bearing pressure
-
-160 psi
-
-Surface velocity
-
-49.087 ft/min
-
-PV rating
-
-7,853.98 psi·ft/min
-
-[Insert Image: Journal Bearing Numerical Calculations]
-
-Material Selection
+### Material Selection
 
 After calculating the operating pressure, velocity, and PV rating, I compared my results with Table 4, Application Limits: Sintered Metal and Nonmetallic Bearings, from Machinery's Handbook.
 
@@ -267,7 +108,8 @@ The calculated pressure safety factor was 28.13, while the calculated PV safety 
 
 Porous bronze also offers self-lubricating properties when properly oil-impregnated, making it suitable for a journal bearing application.
 
-[Insert Image: Machinery's Handbook Table 4 with Porous Bronze Highlighted]
+<img width="636" height="465" alt="image" src="https://github.com/user-attachments/assets/23291055-acfd-4b07-a9cd-d4839edeacd8" />
+
 
 4. Frame Design
 
