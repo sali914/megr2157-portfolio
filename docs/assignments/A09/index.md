@@ -98,62 +98,28 @@ I began with the projected bearing area, Ap = 0.03125 in^2. The bearing pressure
 
 ### Material Selection
 
-After calculating the operating pressure, velocity, and PV rating, I compared my results with Table 4, Application Limits: Sintered Metal and Nonmetallic Bearings, from Machinery's Handbook.
-
-I selected porous bronze because it satisfied the required operating conditions while maintaining a safety factor greater than 3 for both pressure and PV.
-
-The material has a maximum pressure rating of 4,500 psi and a PV limit of 50,000 psi·ft/min.
-
-The calculated pressure safety factor was 28.13, while the calculated PV safety factor was 6.37.
+After calculating the operating pressure, velocity, and PV rating, I compared my results with Table 4, Application Limits: Sintered Metal and Nonmetallic Bearings, from Machinery's Handbook. I selected porous bronze because it satisfied the required operating conditions while maintaining a safety factor greater than 3 for both pressure and PV. The material has a maximum pressure rating of 4,500 psi and a PV limit of 50,000 psi·ft/min. The calculated pressure safety factor was 28.13, while the calculated PV safety factor was 6.37.
 
 Porous bronze also offers self-lubricating properties when properly oil-impregnated, making it suitable for a journal bearing application.
 
 <img width="636" height="465" alt="image" src="https://github.com/user-attachments/assets/23291055-acfd-4b07-a9cd-d4839edeacd8" />
 
 
-4. Frame Design
+### 4. Frame Design
 
-For the final portion of the mechanical design, I developed a supporting frame for the pulley system.
-
-I wanted to create a relatively simple structure that would maintain the required pulley spacing while providing support for the rotating shafts.
-
-I decided to use a two-plate frame design with rounded ends. Each plate contains two bearing locations, allowing the shafts to be supported on opposite sides of the pulley assembly.
-
-The design incorporates a 5-inch center distance between the shaft axes to maintain the required pulley spacing.
-
-The frame concept was developed using hand sketches showing the front, side, and isometric views.
-
-Design Considerations
-
-The primary considerations for the frame were shaft alignment, bearing placement, and the forces transmitted from the pulleys to the supports.
-
-The belt produces a combined transverse load of 10 lbf on each shaft. With the pulleys centered between two supports, each bearing transfers approximately 5 lbf to the frame.
-
-This loading arrangement allows the frame to distribute the forces through the two side plates.
-
-The frame would still require a detailed stress and deflection analysis to confirm that its dimensions satisfy the overall safety factor requirement.
-
-[Insert Image: Frame Design Front View]
-
-[Insert Image: Frame Design Side View]
+For the final portion of the mechanical design, I developed a supporting frame for the pulley system. I wanted to create a relatively simple structure that would maintain the required pulley spacing while providing support for the rotating shafts. I decided to use a two-plate frame design with rounded ends. Each plate contains two bearing locations, allowing the shafts to be supported on opposite sides of the pulley assembly. The design incorporates a 5-inch center distance between the shaft axes to maintain the required pulley spacing. The frame concept was developed using hand sketches showing the front, side, and isometric views.
 
 [Insert Image: Frame Design Isometric View]
 
-5. Lessons Learned
+### 5. Lessons Learned
 
-Throughout this assignment, I developed a better understanding of how several mechanical design concepts work together in a pulley system. One of the most important things I learned was how the tight-side and loose-side belt tensions change when power is transmitted and how their difference determines the torque acting on the shaft.
-
-I also gained experience calculating the minimum cross-sectional area required to resist torsional loading. This helped me understand why shaft diameter is an important design consideration, even when the transmitted torque is relatively small.
-
-Another useful part of the assignment was learning how journal bearing pressure and surface velocity are combined into a PV rating. Before this project, I had limited experience using PV ratings to compare bearing materials.
-
-One challenge I encountered was selecting a belt that matched my calculated dimensions. I initially considered a larger diameter but ultimately selected a standard 1/4-inch polyurethane belt based on the available catalog options. I also had to distinguish between the initial static belt tension and the different tensions that develop during operation.
+Throughout this assignment, I developed a better understanding of how several mechanical design concepts work together in a pulley system. One of the most important things I learned was how the tight-side and loose-side belt tensions change when power is transmitted and how their difference determines the torque acting on the shaft. I also gained experience calculating the minimum cross-sectional area required to resist torsional loading. This helped me understand why shaft diameter is an important design consideration, even when the transmitted torque is relatively small. Another useful part of the assignment was learning how journal bearing pressure and surface velocity are combined into a PV rating. Before this project, I had limited experience using PV ratings to compare bearing materials. One challenge I encountered was selecting a belt that matched my calculated dimensions. I initially considered a larger diameter but ultimately selected a standard 1/4-inch polyurethane belt based on the available catalog options. I also had to distinguish between the initial static belt tension and the different tensions that develop during operation.
 
 Finally, designing the frame helped me consider how shaft alignment, bearing placement, and structural support affect the overall assembly.
 
 Total Time Spent: Approximately 5 hours.
 
-References
+### References:
 
 Dunn, D. J. Solid Mechanics - Dynamics: Tutorial - Pulley Drive Systems.
 
@@ -161,6 +127,4 @@ Machinery's Handbook, 32nd Edition. Simple Stresses, Table 2.
 
 Machinery's Handbook, 32nd Edition. Plain Bearing Materials, Table 4, p. 2442.
 
-McMaster-Carr. Polyurethane Round Belts. Part #3044K606.
-
-Wanga, Chena, Wua, Zhangb, and Suna. Strain-induced Structural and Dynamic Changes in Segmented Polyurethane Elastomers.
+[McMaster-Carr. Polyurethane Round Belts. Part #3044K606.](https://www.mcmaster.com/3044K606-1835T385/)
